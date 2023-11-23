@@ -1,0 +1,11 @@
+POST http://localhost:3003/api/blogs
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImVuem8iLCJpZCI6IjY1NWJhYTBhNzcyOWE4ZTJiZGM3MTA3ZiIsImlhdCI6MTcwMDUwNjE1MSwiZXhwIjoxNzAwNTA5NzUxfQ.Rse043aJ2SfpImSSGo3vFYcFMrF2_MUBkb7AxEdq1wY
+
+{
+    "title": "New test blog",
+    "Author": "Enzo Longhi",
+    "url": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fes.wikipedia.org%2Fwiki%2FEstadio_Monumental_%2528River_Plate%2529&psig=AOvVaw0849JUht6wUPmMTp_zCvlQ&ust=1700059976270000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCKCg-Ivfw4IDFQAAAAAdAAAAABAE",
+    "likes": 1000,
+    "userId": "655b824ddf5c7c0dd2dbf78f"
+}
